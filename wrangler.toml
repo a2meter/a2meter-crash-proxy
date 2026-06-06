@@ -5,8 +5,8 @@ compatibility_date = "2025-01-15"
 # Non-secret vars. Override with `wrangler secret put GITHUB_TOKEN`.
 [vars]
 REPO_OWNER  = "a2meter"
-REPO_NAME   = "Aion2Meter"
-CRASH_LABEL = "crash"
+REPO_NAME   = "A2Meter-Crashes"
+CRASH_LABEL = "Crash"
 
 # Optional: per-IP rate limiting. Create with:
 #   wrangler kv:namespace create RATE_KV
